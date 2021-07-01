@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ConfApp</string>
+    <string name="hello_activity_continue_button_text">Продолжить</string>
+    <string name="hello_activity_what_is_your_name">Как Вас зовут?</string>
+    <string name="hello_activity_type_your_name_hint">Введите Ваше имя</string>
+    <string name="upcoming_events_activity_greetings_user_name_fmt">Приветики, %1s :)</string>
+    <string name="corona_img_description">Логотип Короны</string>
+    <string name="kolesa_logo_img_description">Логотип KOLESA Conf</string>
+    <string name="to_favorite_button_text">В избранное</string>
+    <string name="next_upcoming_event">Следующий доклад</string>
+    <string name="ended_event_text">Доклад завершен</string>
+    <string name="event_title_not_found">Название доклада не указано</string>
+    <string name="go_to_main_page_button_text">На главную</string>
+    <string name="favorites_empty_text_view_text">Здесь пока тихо</string>
+    <string name="activity_event_details_speaker_invited">Приглашенный спикер</string>
+    <string name="favorites_title_text_view">Избранное</string>
+</resources>

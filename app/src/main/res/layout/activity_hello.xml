@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary_dark_color"
+    android:orientation="vertical"
+    tools:context=".HelloActivity"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_stars_with_alpha"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_size_44dp"
+            android:layout_marginBottom="@dimen/dp_size_2dp"
+            android:src="@drawable/img_kolesa_conf_logo"
+            android:contentDescription="@string/kolesa_logo_img_description"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_corona_img"
+            android:contentDescription="@string/corona_img_description"
+            />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@color/white"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/dp_size_16dp"
+                    android:text="@string/hello_activity_what_is_your_name"
+                    android:textSize="@dimen/sp_size_24sp"
+                    android:textColor="@color/black"
+                    />
+
+                <EditText
+                    android:id="@+id/activity_hello_edit_text_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_size_44dp"
+                    android:paddingStart="@dimen/dp_size_8dp"
+                    android:paddingEnd="@dimen/dp_size_8dp"
+                    android:ems="10"
+                    android:layout_marginHorizontal="@dimen/dp_size_16dp"
+                    android:textSize="@dimen/sp_size_16sp"
+                    android:background="@drawable/bg_edit_text"
+                    android:inputType="textPersonName"
+                    android:hint="@string/hello_activity_type_your_name_hint"
+                    />
+
+                <Button
+                    android:id="@+id/activity_hello_continue_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hello_activity_continue_button_text"
+                    android:textAllCaps="false"
+                    android:layout_margin="@dimen/dp_size_16dp"
+                    android:background="@drawable/bg_button_selector"
+                    android:enabled="false"
+                    android:textColor="@drawable/button_text_color"
+                    />
+
+            </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
